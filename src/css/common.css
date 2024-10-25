@@ -1,0 +1,26 @@
+.custom-btn {
+  display: inline-block;
+  padding: 8px 15px; /* Менші відступи для зменшення ширини */
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 120px; /* Фіксована менша ширина */
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-spacing {
+  margin-right: 10px;
+}
+
+/* Збільшення відстані між кнопками */
+li {
+  margin-bottom: 20px; /* Відстань між елементами списку */
+}
