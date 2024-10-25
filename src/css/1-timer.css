@@ -1,0 +1,96 @@
+/* Основні стилі для всього тіла сторінки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.body-timer {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Стилі для посилання */
+a {
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для обгортки таймера */
+.timer-wrap {
+    margin-bottom: 20px;
+}
+
+/* Стилі для поля вибору дати */
+.picker {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.picker:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Стилі для кнопки старту */
+.btn-start {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-start:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+/* Стилі для основного таймера */
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.label {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #555;
+}
+
